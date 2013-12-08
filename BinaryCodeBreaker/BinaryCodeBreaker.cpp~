@@ -1,0 +1,21 @@
+//Game: Binary Code Breaker
+//Player must guess the code in five tries or less.
+//Computer will tell how many digits are correct after each guess.
+
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main()
+{
+  //Generate 4-digit code of 1's and 0's
+  srand(static_cast<unsigned int>(time(0)));
+  //Welcome player
+  //Player submits guess
+  //Computer tells how many digits match
+  //End game if over five tries or player guesses correctly
+
+  return 0;
+}
